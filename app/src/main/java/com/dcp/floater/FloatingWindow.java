@@ -169,6 +169,7 @@ public class FloatingWindow extends Service {
 
     }
     private void updateView(){
+        //new element of floatingWindow for change  eny parameters write here
         ll2 = new RelativeLayout(this);
         thirdBtn = new Button(this);
         LinearLayout.LayoutParams btnParameters = new LinearLayout.LayoutParams(ViewGroup.LayoutParams.MATCH_PARENT, ViewGroup.LayoutParams.WRAP_CONTENT);
